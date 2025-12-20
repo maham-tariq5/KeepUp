@@ -1,0 +1,42 @@
+# Flutter/Dart/Pub related
+flutter/ephemeral
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/App.framework
+ios/.symlinks/
+ios/Runner/GeneratedPluginRegistrant.*
+macos/Flutter/ephemeral/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+web/.dart_tool/
+web/compiled/
+
+# Symbolicated crash logs
+*.symbols
+
+# IDE related
+.idea/
+.vscode/
+*.iml
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Environment / config
+.env
+*.lock
+*.log
