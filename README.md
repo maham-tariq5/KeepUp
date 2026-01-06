@@ -12,17 +12,14 @@ KeepUp is a Flutter-based running app that gamifies your workouts by turning you
 - **Map Tracking:** Real-time map updates show your current location and route.  
 - **Pause & Resume:** Automatic pause detection and manual control for flexible running sessions.  
 
-## Add your files
+## Technical Overview
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.socs.uoguelph.ca/f25-cis4030-projects/group08/keepup.git
-git branch -M main
-git push -uf origin main
-```
+- **Flutter:** Frontend app framework for cross-platform UI.
+- **Geolocator:** Real-time GPS tracking with smoothing and accuracy filtering.
+- **Pace Smoother:** Reduces noisy pace readings to give a stable and responsive pace display.
+- **AudioPlayer:** Plays looping scary music when your pace drops.
+- **Hive:** Local storage for run stats and profile data.
+- **Flutter Map + LatLong2:** Shows real-time location on a map with animated avatar sprites.
 
 ## Integrate with your tools
 
